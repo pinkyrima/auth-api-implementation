@@ -6,8 +6,11 @@ class Homepage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('This is HomePage'),
+      body: Center(
+        child: Text(
+          'This is Home Screen',
+          style: TextStyle(fontSize: 20),
+        ),
       ),
     );
   }
